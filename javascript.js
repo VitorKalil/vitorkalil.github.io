@@ -1,5 +1,8 @@
 // segunda parte dos testes com react
 
+
+
+
 function Header() {
     return (
       <nav className="navbar">
@@ -25,19 +28,17 @@ function Header() {
           return <div>teste</div>;
       }
   }
+/**var myCanvas = document.querySelector("#myCanvas");
+console.log(document.querySelector(".navbar").clientWidth);
+var context = myCanvas.getContext("2d");
+var gradiente = context.createLinearGradient(0,0,document.querySelector(".navbar").clientWidth,0);
+gradiente.addColorStop(0,"red");
+gradiente.addColorStop(1,"white");
+context.fillStyle = gradiente;
+context.fillRect(0,0,document.querySelector(".navbar").clientWidth,document.querySelector(".navbar").clientHeight);
+console.log(window.innerWidth)
+**/
+
   
-  function Teste2(){
-      return( <div>tcha</div>)
-  }
-  /*
-    ReactDOM.render(
-      <Teste2 />,
-      document.getElementById('root')
-    );
-  
-    var el = document.createElement("h1");
-    el.textContent = "olar";
-    var minhaDiv = document.getElementById('root');
-    minhaDiv.append(el)
-    */
+
   
